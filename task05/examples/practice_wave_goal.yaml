@@ -1,0 +1,38 @@
+# Guided practice: a neutral posture, a small left-arm wave, and neutral again.
+# Fixed pelvis; this goal does not demonstrate free-body balance.
+# Every position array follows exactly the joint_names order below (radians).
+# Times are cumulative seconds from the start of this one trajectory.
+# This is a static ROS message example, separate from the homework mission.
+trajectory:
+  joint_names:
+    - left_shoulder_pitch
+    - left_shoulder_roll
+    - left_elbow_pitch
+    - left_wrist_roll
+    - right_shoulder_pitch
+    - right_shoulder_roll
+    - right_elbow_pitch
+    - right_wrist_roll
+    - left_hip_yaw
+    - left_hip_roll
+    - left_hip_pitch
+    - left_knee_pitch
+    - left_ankle_pitch
+    - right_hip_yaw
+    - right_hip_roll
+    - right_hip_pitch
+    - right_knee_pitch
+    - right_ankle_pitch
+  points:
+    - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      time_from_start: {sec: 1, nanosec: 0}
+    - positions: [0.0, 0.45, -0.60, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      time_from_start: {sec: 3, nanosec: 0}
+    - positions: [0.0, 0.45, -0.60, 0.30, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      time_from_start: {sec: 4, nanosec: 0}
+    - positions: [0.0, 0.45, -0.60, -0.30, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      time_from_start: {sec: 5, nanosec: 0}
+    - positions: [0.0, 0.45, -0.60, 0.30, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      time_from_start: {sec: 6, nanosec: 0}
+    - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      time_from_start: {sec: 9, nanosec: 0}
