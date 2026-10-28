@@ -19,7 +19,7 @@ class SafetyMonitor(Node):
         self._last_state: bool | None = None
         self._publisher = self.create_publisher(
             SafetyState,
-            "/safety/state",
+            "safety/state",
             safety_status_qos(),
         )
         self._subscription = self.create_subscription(
